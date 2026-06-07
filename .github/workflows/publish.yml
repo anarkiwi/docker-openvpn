@@ -18,7 +18,7 @@ jobs:
           password: ${{ secrets.DOCKER_TOKEN }}
       - name: Image metadata / tags
         id: meta
-        uses: docker/metadata-action@v5
+        uses: docker/metadata-action@v6
         with:
           images: anarkiwi/docker-openvpn
           tags: |

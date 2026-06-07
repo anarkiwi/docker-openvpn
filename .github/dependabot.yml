@@ -1,0 +1,12 @@
+version: 2
+updates:
+  # Bumps the `FROM alpine:<tag>` base image.
+  - package-ecosystem: docker
+    directory: "/"
+    schedule:
+      interval: weekly
+  # Bumps the action versions used in the CI / publish workflows.
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly

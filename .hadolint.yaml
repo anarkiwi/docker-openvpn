@@ -1,0 +1,4 @@
+ignored:
+  # We pin the alpine base tag (dependabot bumps it) rather than pinning the apk
+  # openvpn version, which has no upstream version feed to track.
+  - DL3018

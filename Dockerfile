@@ -1,4 +1,4 @@
-FROM alpine:3.23
+FROM alpine:3.24
 
 # iproute2: openvpn needs `ip` to install the tun route for the server subnet.
 # No iptables here -- NAT is the operator's job on the host (host networking).
